@@ -7,12 +7,47 @@ body {
     margin-bottom: 60px;
 }
 
+/* Title Styles *********************************************************/
+.display-1 {
+    font-size: 4em;
+}
+
+/* Main Content Styles **************************************************/
+#main-text-row {
+    position: relative;
+}
+#main-text {
+    overflow-y: scroll;
+    height: 600px;
+}
+.fadeout {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+    )
+}
+
+/* Chapter Navigation Styles ********************************************/
+.arrow {
+    width: 100px;
+}
+
 /* Footer Styles ********************************************************/
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    height: 40px;
+    line-height: 40px;
+}
+.footer p {
+    margin-bottom: 0;
 }
   
